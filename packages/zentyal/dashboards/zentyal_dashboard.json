@@ -1,0 +1,28 @@
+{
+  "layout": {
+      "title": false,
+      "customJS" : ["jquery.peity.js"],
+      "widgets" : [
+          {"row" : 1, "col" : 1, "width" : 1, "height" : 1, "widget" : "clock", "job" : "clock", "config": "clock_config"},
+          {"row" : 1, "col" : 2, "width" : 2, "height" : 2, "widget" : "quotes", "job" : "adage", "config": "adage_config"}
+      ]
+  },
+
+  "config" : {
+
+    "clock_config" : {
+        "interval" : 0,
+        "stfuOnly" : false,
+        "stfuHours":[]
+    },
+
+    "adage_config" : {
+        "interval" : 0,
+        "user" : "*****",
+        "password" : "*****",
+        "url" : "https://tt.zentyal.com",
+        "widgetTitle" : "Adagio"
+    }
+
+  }
+}
